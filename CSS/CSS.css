@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id  */
+    src: url('../fonts/search/iconfont.ttf?t=1667277848186') format('truetype');
+}
+
+.searchtu {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.search {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.searchbox {
+    width: 100%;
+    height: 50px;
+    padding: 12px 12px 6px 12px;
+}
+
+.searchbox02 {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #0086f6;
+    display: flex;
+    color: #666;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.searchhd {
+    color: #666;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.searchbd {
+    margin-left: 6px;
+    font-size: 15px;
+    line-height: 21px;
+    color: #999;
+}
+
+.nav {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.navbd {
+    display: flex;
+    width: 100%;
+    padding: 6px 12px 2px 12px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.navch {
+    height: 58px;
+    width: 70px;
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-width: 2px;
+    background-image: linear-gradient(180deg, #fa5956, #fb8650);
+}
+
+
+.navch .navch02:first-child {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4px;
+    background-size: 28px auto;
+    background-repeat: no-repeat;
+    background-image: url(../upload/hotel.jpg);
+}
+
+.navbd .navch:first-child {
+    border-top-left-radius: 8px;
+}
+
+.navbd .navch:nth-child(5) {
+    border-top-right-radius: 8px;
+}
+
+.tejiajingxuan {
+    display: flex;
+    background-color: #f4f4f4;
+    padding: 0 12px;
+    margin-left: -8px;
+    margin-bottom: 10px;
+}
+
+.tejia,
+.jingxuan {
+    flex: 1;
+    position: relative;
+    padding: 8px;
+    margin-left: 8px;
+    background-color: #ffebe3;
+}
+
+.tejiabiaoti {
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+    align-items: center;
+}
+
+.zhibo {
+    background: url(../upload/tejiazhibo.jpg);
+    width: 73px;
+    height: 20px;
+    background-size: 100%;
+}
+
+.haohuo {
+    height: 16px;
+    line-height: 16px;
+    border-radius: 2px;
+    font-size: 10px;
+    background: #ffebe3;
+    color: #ff4607;
+    padding: 1px 4px;
+    white-space: nowrap;
+}
+
+.tejiabox {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    height: 84px;
+}
+
+.tejiawu {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    background: rgba(51, 51, 51, .8);
+    border-radius: 6px 0 6px 0;
+    font-size: 10px;
+    color: #fff;
+}
+
+.tejiajieshao {
+    border-radius: 0 6px 0 6px;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 6px;
+    left: 2px;
+}
+
+.tejiajiage {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f60;
+    padding-right: 2px;
+}
+
+.jingxuan {
+    display: flex;
+    flex-direction: column;
+}
+
+.jingxuan img:first-child {
+    width: 73px;
+    height: 20px;
+}
+
+.jingxuan img:nth-child(2) {
+    height: 84px;
+}
+
+.jingxuan span {
+    font-family: PingFangSC-Semibold;
+    font-size: 11px;
+    color: #333;
+    line-height: 18px;
+}
+
+.zuihou {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    padding-top: 0px;
+    height: 100px;
+}
